@@ -38,7 +38,7 @@ public class ModBlocks {
     public static final PaneTemplate COPPER_BARS = new PaneTemplate(Blocks.IRON_BARS);
     public static final TorchTemplate COPPER_SULFATE_TORCH = new TorchTemplate(AbstractBlock.Settings.copy(Blocks.TORCH), ParticleTypes.ANGRY_VILLAGER);
     public static final WallTorchTemplate COPPER_SULFATE_WALL_TORCH = new WallTorchTemplate(AbstractBlock.Settings.copy(Blocks.WALL_TORCH), ParticleTypes.ANGRY_VILLAGER);
-//
+
     //Fire
     public static final CopperSulfateFireBlock COPPER_SULFATE_FIRE_BLOCK = new CopperSulfateFireBlock(FabricBlockSettings.of(Material.FIRE, MapColor.GREEN).noCollision().breakInstantly().luminance(10), 2.0F);
 

@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "addon:block/copper_sulfate_fire_block_floor0"
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_floor1"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side0"
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side1"
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt0"
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt1"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side0",
+          "y": 90
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side1",
+          "y": 90
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt0",
+          "y": 90
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt1",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side0",
+          "y": 180
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side1",
+          "y": 180
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt0",
+          "y": 180
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt1",
+          "y": 180
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side0",
+          "y": 270
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side1",
+          "y": 270
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt0",
+          "y": 270
+        },
+        {
+          "model": "addon:block/copper_sulfate_fire_block_side_alt1",
+          "y": 270
+        }
+      ]
+    }
+  ]
+}

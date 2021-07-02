@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.santapexie.addon.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CopperSulfateFireBlockMixin",
+    "fire_overlays.AbstractFireBlockMixin",
+    "fire_overlays.EntityMixin",
+    "fire_overlays.LivingEntityMixin",
+    "fire_overlays.PersistentProjectileEntityMixin",
+    "fire_overlays.ZombieEntityMixin",
+    "PiglinBrainMixin",
+    "PowderSnowMixin",
+    "BlocksMixin"
+
+  ],
+  "client": [
+    "fire_overlays.client.EntityRenderDispatcherMixin",
+    "fire_overlays.client.InGameOverlayRendererMixin",
+    "MinecraftClientMixin"
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

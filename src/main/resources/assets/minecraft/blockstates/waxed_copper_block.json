@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "isholding=false": { "model": "minecraft:block/copper_block" },
+    "isholding=true": { "model": "minecraft:block/pumpkin" }
+  }
+}

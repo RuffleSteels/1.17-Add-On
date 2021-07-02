@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "addon:amethyst_slab",
+    "count": 6
+  }
+}

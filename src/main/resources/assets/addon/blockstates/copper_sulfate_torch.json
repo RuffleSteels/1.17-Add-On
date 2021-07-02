@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "addon:block/copper_sulfate_torch"
+    }
+  }
+}

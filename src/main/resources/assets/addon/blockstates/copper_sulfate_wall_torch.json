@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "addon:block/copper_sulfate_wall_torch"
+    },
+    "facing=north": {
+      "model": "addon:block/copper_sulfate_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "addon:block/copper_sulfate_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "addon:block/copper_sulfate_wall_torch",
+      "y": 180
+    }
+  }
+}

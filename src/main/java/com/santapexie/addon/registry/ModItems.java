@@ -44,6 +44,7 @@ public class ModItems {
     //Block Items
     public static final BlockItem AMETHYST_SLAB = new BlockItem(ModBlocks.AMETHYST_SLAB, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem AMETHYST_STAIRS = new BlockItem(ModBlocks.AMETHYST_STAIRS, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final BlockItem COPPER_SULFATE_TORCH = new BlockItem(ModBlocks.COPPER_SULFATE_TORCH, new Item.Settings().group(ItemGroup.MATERIALS));
 
     public static final BlockItem COPPER_CHAIN = new BlockItem(ModBlocks.COPPER_CHAIN, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem EXPOSED_COPPER_CHAIN = new BlockItem(ModBlocks.EXPOSED_COPPER_CHAIN, new Item.Settings().group(ItemGroup.DECORATIONS));
@@ -82,6 +83,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(AddOnMod.MOD_ID, "waxed_copper_slab"), WAXED_COPPER_SLAB);
         Registry.register(Registry.ITEM, new Identifier(AddOnMod.MOD_ID, "waxed_exposed_copper_slab"), WAXED_EXPOSED_COPPER_SLAB);
         Registry.register(Registry.ITEM, new Identifier(AddOnMod.MOD_ID, "waxed_weathered_copper_slab"), WAXED_WEATHERED_COPPER_SLAB);
+        Registry.register(Registry.ITEM, new Identifier(AddOnMod.MOD_ID, "copper_sulfate_torch"), COPPER_SULFATE_TORCH);
 
         //Armor
         Registry.register(Registry.ITEM, new Identifier(AddOnMod.MOD_ID, "rose_gold_helmet"), ROSE_GOLD_HELMET);

@@ -44,7 +44,7 @@ public class ModItems {
     //Block Items
     public static final BlockItem AMETHYST_SLAB = new BlockItem(ModBlocks.AMETHYST_SLAB, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem AMETHYST_STAIRS = new BlockItem(ModBlocks.AMETHYST_STAIRS, new Item.Settings().group(ItemGroup.DECORATIONS));
-    public static final BlockItem COPPER_SULFATE_TORCH = new BlockItem(ModBlocks.COPPER_SULFATE_TORCH, new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final BlockItem COPPER_SULFATE_TORCH = new WallStandingBlockItem(ModBlocks.COPPER_SULFATE_TORCH, ModBlocks.COPPER_SULFATE_WALL_TORCH, new Item.Settings().group(ItemGroup.MATERIALS));
 
     public static final BlockItem COPPER_CHAIN = new BlockItem(ModBlocks.COPPER_CHAIN, new Item.Settings().group(ItemGroup.DECORATIONS));
     public static final BlockItem EXPOSED_COPPER_CHAIN = new BlockItem(ModBlocks.EXPOSED_COPPER_CHAIN, new Item.Settings().group(ItemGroup.DECORATIONS));

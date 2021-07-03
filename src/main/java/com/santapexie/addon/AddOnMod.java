@@ -48,6 +48,8 @@ public class AddOnMod implements ModInitializer, ClientModInitializer {
         renderTransparent(ModBlocks.WAXED_EXPOSED_COPPER_CHAIN);
         renderTransparent(ModBlocks.WAXED_WEATHERED_COPPER_CHAIN);
         renderTransparent(ModBlocks.COPPER_SULFATE_FIRE_BLOCK);
+        renderTransparent(ModBlocks.COPPER_SULFATE_TORCH);
+        renderTransparent(ModBlocks.COPPER_SULFATE_WALL_TORCH);
         ModBlocks.registerBlocks();
         ModItems.registerItems();
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {

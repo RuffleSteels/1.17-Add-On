@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "addon:block/copper_sulfate_torch"
+    "layer0": "addon:blocks/copper_sulfate_torch"
   }
 }
